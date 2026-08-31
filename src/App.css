@@ -224,13 +224,13 @@ a {
   position: relative;
   z-index: 1;
 
-  background: #f4f3f0;
+  background: #f1f1ed;
 
   padding: 110px 0;
 }
 
 .skills-section {
-  background: #efeee9;
+  background: #f1f1ed;
 }
 
 .section-heading {
@@ -476,13 +476,13 @@ a {
   position: relative;
   z-index: 1;
 
-  background: #e3e1db;
+  background: #e8e7e2;
 
   padding: 90px 0;
 }
 
 .connect-section {
-  background: #d9d7d0;
+  background: #deddd7;
 }
 
 .about-layout {

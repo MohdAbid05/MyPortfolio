@@ -9,7 +9,7 @@ const projects = [
     number: "01",
     title: "RanRoute",
     image:
-      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80",
+      "/projects/ranroute.png",
     description:
       "An intelligent route optimization platform designed to generate efficient multi-stop routes under real-world constraints. Combines optimization algorithms with mapping and routing APIs to transform location data into practical, optimized travel plans.",
     technologies: ["Python", "FastAPI", "React", "Vite", "PostgreSQL", "Supabase", "OR-Tools", "Optimization Algorithms", "Google Maps API", "Nominatim", "OpenStreetMap", "IBM Granite", "watsonx.ai"],
@@ -21,7 +21,7 @@ const projects = [
     number: "02",
     title: "Blokus",
     image:
-      "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80",
+      "/projects/blockus.png",
     description:
       "A full-featured Java implementation of the Blokus strategy game, engineered with a layered object-oriented architecture. Features rule-complete move validation, multiple AI difficulty levels with heuristic decision-making, save/load persistence, accessibility modes, and a Swing-based graphical interface backed by automated testing.",
     technologies: ["Java", "Java Swing", "JUnit", "OOP", "Layered Architecture", "AI / Heuristics", "UML"],
@@ -33,7 +33,7 @@ const projects = [
     number: "03",
     title: "Light Field Research",
     image:
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
+      "/projects/research.png"",
     description:
       "A research-focused light-field rendering pipeline for generating and processing multi-view imagery for holographic displays. Developed tools and workflows spanning virtual camera arrays, 3D rendering, integral-image processing, quilt generation, and visualization of light-field content.",
     technologies: ["Python", "Autodesk Maya", "OctaneRender", "OpenCV", "NumPy", "FFmpeg", "Computer Graphics"],
@@ -48,7 +48,7 @@ const extraProjects = [
     number: "04",
     title: "AI-Powered Chess",
     image:
-      "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1200&q=80",
+      "/projects/chess.png"",
     description:
       "An autonomous chess environment where AI agents compete against one another through a multi-agent system. Uses Microsoft AutoGen to coordinate agent communication, tool/function calling, game-state reasoning, and turn-based interaction with an underlying chess engine.",
     technologies: ["Python", "Microsoft AutoGen", "Multi-Agent Systems", "Generative AI", "Function Calling", "Chess Engine"],
@@ -60,7 +60,7 @@ const extraProjects = [
     number: "05",
     title: "Guess Who",
     image:
-      "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
+      "/projects/guess.png"",
     description:
       "A database-backed guessing game inspired by Akinator, built around an interactive question-and-elimination engine that progressively narrows a set of possible characters. Integrates Python application logic with MySQL-backed persistent character data and a modular database-management layer.",
     technologies: ["Python", "MySQL", "SQL", "Database Design", "Game Logic", "Data Persistence"],
@@ -72,7 +72,7 @@ const extraProjects = [
     number: "06",
     title: "Treasure Hunt",
     image:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
+      "/projects/hunt.png",
     description:
       "An interactive two-player treasure-hunting game built in Java, where players alternate searching a grid for a randomly hidden treasure. Separates core game mechanics from the Swing interface while handling randomized placement, player turns, input validation, and game-state updates.",
     technologies: ["Java", "Java Swing", "OOP", "GUI Development", "Game Logic", "Event-Driven Programming"],
@@ -92,9 +92,14 @@ const aboutPhotos = [
     alt: "Abid",
   },
   {
-    src: "/images/about/about-3.jpg",
+    src: "/images/about/about-4.jpg",
     alt: "Abid",
   },
+  {
+    src: "/images/about/about-5.jpg",
+    alt: "Abid",
+  },
+  
 ];
 
 const skillCategories = [
@@ -675,7 +680,7 @@ export default function App() {
           <div className="about-layout">
             <div className="about-text">
               <p>
-                I’m a Computer Science and Mathematics student at Memorial
+                I’m a Computer Science student at Memorial
                 University, focused on software engineering, optimization,
                 graphics, and building systems that are both practical and
                 genuinely useful.
@@ -688,9 +693,13 @@ export default function App() {
                 to use.
               </p>
 
+              <p>
+                Outside of code, you'll usually find me playing football or badminton, 
+                reading, or lately, out on hikes.
+              </p>
+
               <div className="about-meta">
                 <span>St. John's, NL</span>
-                <span>CS + Math</span>
                 <span>Open to Co-op</span>
               </div>
             </div>

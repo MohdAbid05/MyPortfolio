@@ -96,7 +96,7 @@ const aboutPhotos = [
     alt: "Abid",
   },
   {
-    src: "/images/about/about-5.jpg",
+    src: "/images/about/about-3.jpg",
     alt: "Abid",
   },
   

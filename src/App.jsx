@@ -48,7 +48,7 @@ const extraProjects = [
     number: "04",
     title: "AI-Powered Chess",
     image:
-      "/projects/chess.png"",
+      "/projects/chess.png",
     description:
       "An autonomous chess environment where AI agents compete against one another through a multi-agent system. Uses Microsoft AutoGen to coordinate agent communication, tool/function calling, game-state reasoning, and turn-based interaction with an underlying chess engine.",
     technologies: ["Python", "Microsoft AutoGen", "Multi-Agent Systems", "Generative AI", "Function Calling", "Chess Engine"],
@@ -60,7 +60,7 @@ const extraProjects = [
     number: "05",
     title: "Guess Who",
     image:
-      "/projects/guess.png"",
+      "/projects/guess.png",
     description:
       "A database-backed guessing game inspired by Akinator, built around an interactive question-and-elimination engine that progressively narrows a set of possible characters. Integrates Python application logic with MySQL-backed persistent character data and a modular database-management layer.",
     technologies: ["Python", "MySQL", "SQL", "Database Design", "Game Logic", "Data Persistence"],

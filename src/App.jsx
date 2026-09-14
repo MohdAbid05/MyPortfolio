@@ -33,7 +33,7 @@ const projects = [
     number: "03",
     title: "Light Field Research",
     image:
-      "/projects/research.png"",
+      "/projects/research.png",
     description:
       "A research-focused light-field rendering pipeline for generating and processing multi-view imagery for holographic displays. Developed tools and workflows spanning virtual camera arrays, 3D rendering, integral-image processing, quilt generation, and visualization of light-field content.",
     technologies: ["Python", "Autodesk Maya", "OctaneRender", "OpenCV", "NumPy", "FFmpeg", "Computer Graphics"],
